@@ -48,7 +48,7 @@ jobs:
           tags: gheason/infra-actions:latest
 
   deploy:
-    runs-on: bubntu-latest
+    runs-on: ubntu-latest
     needs: build_and_push_to_docker_hub
     steps:
       - name: executing remote ssh commands to deploy
